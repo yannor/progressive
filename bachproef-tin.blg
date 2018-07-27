@@ -1,5 +1,11 @@
-[0] Config.pm:354> INFO - This is Biber 2.7
-[0] Config.pm:357> INFO - Logfile is 'bachproef-tin.blg'
-[55] biber-MSWIN64:303> INFO - === 
-[711] Utils.pm:180> ERROR - Cannot find control file 'bachproef-tin.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
-[712] Biber.pm:113> INFO - ERRORS: 1
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'bachproef-tin.blg'
+[29] biber-MSWIN64:313> INFO - === 
+[61] Biber.pm:371> INFO - Reading 'bachproef-tin.bcf'
+[157] Biber.pm:857> INFO - Found 2 citekeys in bib section 0
+[172] Biber.pm:3976> INFO - Processing section 0
+[185] Biber.pm:4136> INFO - Looking for bibtex format file 'bachproef-tin.bib' for section 0
+[189] bibtex.pm:1500> INFO - LaTeX decoding ...
+[199] bibtex.pm:1316> INFO - Found BibTeX data source 'bachproef-tin.bib'
+[211] Utils.pm:209> ERROR - BibTeX subsystem: C:\Users\Yannick\AppData\Local\Temp\Sewxq5zo4Y\bachproef-tin.bib_7124.utf8, line 32, syntax error: found "note", expected end of entry ("}" or ")") (skipping to next "@")
+[211] Biber.pm:114> INFO - ERRORS: 1

@@ -2124,9 +2124,8 @@
     <bcf:datasource type="file" datatype="bibtex">bachproef-tin.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Pollefliet2011</bcf:citekey>
-    <bcf:citekey order="2">Knuth1998</bcf:citekey>
-    <bcf:citekey order="3">Creeger2009</bcf:citekey>
+    <bcf:citekey order="1">keynote2007</bcf:citekey>
+    <bcf:citekey order="2">comScore</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
