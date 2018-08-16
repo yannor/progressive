@@ -1,5 +1,19 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
-[0] Config.pm:305> INFO - Logfile is 'bachproef-tin.bib.blg'
-[39] biber-MSWIN64:313> INFO - === 
-[470] Utils.pm:209> ERROR - Cannot find control file 'bachproef-tin.bib.bcf'! - Did latex run successfully on your .tex file before you ran biber?
-[470] Biber.pm:114> INFO - ERRORS: 1
+[1] Config.pm:305> INFO - Logfile is 'bachproef-tin.bib.blg'
+[44] biber-MSWIN64:313> INFO - === 
+[76] Biber.pm:371> INFO - Reading 'bachproef-tin.bib.bcf'
+[177] Biber.pm:854> INFO - Using all citekeys in bib section 0
+[192] Biber.pm:3976> INFO - Processing section 0
+[214] Biber.pm:4136> INFO - Looking for bibtex format file 'bachproef-tin.bib' for section 0
+[222] bibtex.pm:1500> INFO - LaTeX decoding ...
+[238] bibtex.pm:1316> INFO - Found BibTeX data source 'bachproef-tin.bib'
+[255] Utils.pm:193> WARN - Entry 'apk' (bachproef-tin.bib): Invalid format 'januari 2018' of date field 'date' - ignoring
+[265] Utils.pm:193> WARN - Entry 'mobileWat' (bachproef-tin.bib): Invalid format 'maart 2018' of date field 'date' - ignoring
+[275] Utils.pm:193> WARN - Entry 'traffic' (bachproef-tin.bib): Invalid format 'April 27, 2018' of date field 'date' - ignoring
+[312] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[313] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[315] Biber.pm:3804> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[318] Biber.pm:3810> INFO - No sort tailoring available for locale 'nl-NL'
+[334] bbl.pm:617> INFO - Writing 'bachproef-tin.bib.bbl' with encoding 'UTF-8'
+[341] bbl.pm:720> INFO - Output to bachproef-tin.bib.bbl
+[347] Biber.pm:110> INFO - WARNINGS: 3

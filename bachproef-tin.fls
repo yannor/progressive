@@ -298,6 +298,16 @@ INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/bookmark.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/bookmark.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/bkm-pdftex.def
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/bkm-pdftex.def
+INPUT C:/Users/Yannick/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/lstlang1.sty
+INPUT C:/Users/Yannick/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/lstlang1.sty
+INPUT C:/Users/Yannick/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/lstmisc.sty
+INPUT C:/Users/Yannick/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/lstmisc.sty
+INPUT C:/Users/Yannick/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/lstlang1.sty
+INPUT C:/Users/Yannick/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/lstlang1.sty
+INPUT C:/Users/Yannick/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/lstlang2.sty
+INPUT C:/Users/Yannick/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/lstlang2.sty
+INPUT C:/Users/Yannick/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/lstlang3.sty
+INPUT C:/Users/Yannick/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/lstlang3.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/biblatex-apa/dutch-apa.lbx
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/biblatex-apa/dutch-apa.lbx
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/biblatex-apa/dutch-apa.lbx
@@ -374,7 +384,6 @@ INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8t.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8t.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8t.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagk8t.tfm
-OUTPUT bachproef-tin.toc
 INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/avantgar/pagd8t.vf
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8r.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/avantgar/pagd8t.vf
@@ -383,39 +392,86 @@ INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/avantgar/pagd8t.vf
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8r.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/avantgar/pagk8t.vf
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagk8r.tfm
+OUTPUT bachproef-tin.toc
 INPUT inleiding.tex
 INPUT inleiding.tex
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/omsptm.fd
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/omsptm.fd
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsy10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/times/ptmb8t.vf
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT methodologie.tex
+INPUT methodologie.tex
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmr8t.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8t.tfm
-INPUT img/appShell.png
-INPUT ./img/appShell.png
-INPUT ./img/appShell.png
-INPUT ./img/appShell.png
-INPUT ./img/appShell.png
-INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/avantgar/pagd8t.vf
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8r.tfm
-INPUT C:/Users/Yannick/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/lstlang1.sty
-INPUT C:/Users/Yannick/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/lstlang1.sty
-INPUT C:/Users/Yannick/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/lstmisc.sty
-INPUT C:/Users/Yannick/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/lstmisc.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/t1cmtt.fd
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/t1cmtt.fd
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ectt1095.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/times/ptmr8t.vf
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/ot1ztmcm.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/ot1ztmcm.fd
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7t.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7t.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7t.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/omlztmcm.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/omlztmcm.fd
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7m.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7m.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7m.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/omsztmcm.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/omsztmcm.fd
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7y.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7y.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7y.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/omxztmcm.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/omxztmcm.fd
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7v.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7v.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7v.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/microtype/mt-msa.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/microtype/mt-msa.cfg
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/microtype/mt-msb.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/microtype/mt-msb.cfg
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/ot1ptm.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/ot1ptm.fd
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT img/manifestDev.png
+INPUT ./img/manifestDev.png
+INPUT ./img/manifestDev.png
+INPUT ./img/manifestDev.png
+INPUT ./img/manifestDev.png
+INPUT img/noInternet.png
+INPUT ./img/noInternet.png
+INPUT ./img/noInternet.png
+INPUT ./img/noInternet.png
+INPUT ./img/noInternet.png
+INPUT img/lifeCycle.png
+INPUT ./img/lifeCycle.png
+INPUT ./img/lifeCycle.png
+INPUT ./img/lifeCycle.png
+INPUT ./img/lifeCycle.png
+INPUT img/appShell.png
+INPUT ./img/appShell.png
+INPUT ./img/appShell.png
+INPUT ./img/appShell.png
+INPUT ./img/appShell.png
 INPUT img/audit.png
 INPUT ./img/audit.png
 INPUT ./img/audit.png
 INPUT ./img/audit.png
 INPUT ./img/audit.png
-INPUT methodologie.tex
-INPUT methodologie.tex
 INPUT conclusie.tex
 INPUT conclusie.tex
 INPUT bachproef-tin.lof
@@ -427,44 +483,6 @@ INPUT ./img/usage.png
 INPUT ./img/usage.png
 INPUT ./img/usage.png
 INPUT ./img/usage.png
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/ot1ztmcm.fd
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/ot1ztmcm.fd
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7t.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7t.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7t.tfm
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/omlztmcm.fd
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/omlztmcm.fd
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7m.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7m.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7m.tfm
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/omsztmcm.fd
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/omsztmcm.fd
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7y.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7y.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7y.tfm
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/omxztmcm.fd
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/omxztmcm.fd
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7v.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7v.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/zptmcm7v.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/microtype/mt-msa.cfg
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/microtype/mt-msa.cfg
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/microtype/mt-msb.cfg
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/microtype/mt-msb.cfg
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/ot1ptm.fd
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/ot1ptm.fd
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmri7t.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmri7t.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT img/downloads.png
 INPUT ./img/downloads.png
 INPUT ./img/downloads.png
@@ -485,6 +503,16 @@ INPUT ./img/timeSpent.png
 INPUT ./img/timeSpent.png
 INPUT ./img/timeSpent.png
 INPUT ./img/timeSpent.png
+INPUT img/installHome.jpg
+INPUT ./img/installHome.jpg
+INPUT ./img/installHome.jpg
+INPUT ./img/installHome.jpg
+INPUT ./img/installHome.jpg
+INPUT img/swDev.png
+INPUT ./img/swDev.png
+INPUT ./img/swDev.png
+INPUT ./img/swDev.png
+INPUT ./img/swDev.png
 INPUT bachproef-tin.lot
 INPUT bachproef-tin.lot
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/biblatex-apa/dutch-apa.lbx

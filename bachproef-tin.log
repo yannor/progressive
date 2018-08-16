@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.23)  30 JUL 2018 04:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.23)  16 AUG 2018 03:49
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1265,7 +1265,43 @@ Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def"
 File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 \BKM@id=\count464
-)))
+))) (C:\Users\Yannick\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.st
+y
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) (C:\Users\Yannick\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+) (C:\Users\Yannick\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) (C:\Users\Yannick\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang2.sty
+File: lstlang2.sty 2015/06/04 1.6 listings language file
+) (C:\Users\Yannick\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang3.sty
+File: lstlang3.sty 2015/06/04 1.6 listings language file
+)
+
+! Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 }
+      
+The following languages weren't loadable:
+    ,javascript$
+This may cause errors in the sequel.
+
+
+! Package Listings Error: language javascript undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 }
+      
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 Package biblatex Info: Trying to load language 'dutch' -> 'dutch-apa'...
 Package biblatex Info: ... file 'dutch-apa.lbx' found.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex-apa\dutch-apa.lbx"
@@ -1309,21 +1345,21 @@ Package csquotes Info: Redefining alias 'default' -> 'dutch'.
 (bachproef-tin.aux)
 \openout1 = `bachproef-tin.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 85.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
@@ -1387,7 +1423,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box65
-Package hyperref Info: Link coloring OFF on input line 47.
+Package hyperref Info: Link coloring OFF on input line 85.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
@@ -1395,11 +1431,11 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count471
 )
-LaTeX Info: Redefining \ref on input line 47.
-LaTeX Info: Redefining \pageref on input line 47.
-LaTeX Info: Redefining \nameref on input line 47.
+LaTeX Info: Redefining \ref on input line 85.
+LaTeX Info: Redefining \pageref on input line 85.
+LaTeX Info: Redefining \nameref on input line 85.
 \c@lstlisting=\count472
-LaTeX Info: Redefining \microtypecontext on input line 47.
+LaTeX Info: Redefining \microtypecontext on input line 85.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1419,9 +1455,28 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'bachproef-tin.bbl' found.
-(bachproef-tin.bbl)
-Package biblatex Info: Reference section=0 on input line 47.
-Package biblatex Info: Reference segment=0 on input line 47.
+(bachproef-tin.bbl
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'traffic':
+(biblatex)                - Entry 'traffic' (bachproef-tin.bib): Invalid format
+ 'April 27, 2018' of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'apk':
+(biblatex)                - Entry 'apk' (bachproef-tin.bib): Invalid format 'ja
+nuari 2018' of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'mobileWat':
+(biblatex)                - Entry 'mobileWat' (bachproef-tin.bib): Invalid form
+at 'maart 2018' of date field 'date' - ignoring.
+
+)
+Package biblatex Info: Reference section=0 on input line 85.
+Package biblatex Info: Reference segment=0 on input line 85.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1457,17 +1512,17 @@ Package biblatex Info: Reference segment=0 on input line 47.
 <img/HG-beeldmerk-woordmerk.png, id=6, 557.2017pt x 611.4042pt>
 File: img/HG-beeldmerk-woordmerk.png Graphic file (type png)
 <use img/HG-beeldmerk-woordmerk.png>
-Package pdftex.def Info: img/HG-beeldmerk-woordmerk.png  used on input line 56.
+Package pdftex.def Info: img/HG-beeldmerk-woordmerk.png  used on input line 94.
 
 (pdftex.def)             Requested size: 71.13188pt x 78.04861pt.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 94.
 [1
 
 
@@ -1475,13 +1530,13 @@ Package babel Info: Redefining dutch shorthand "~
 {C:/Users/Yannick/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/HG-
 beeldmerk-woordmerk.png>]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 94.
 [2
 
 ]
@@ -1518,18 +1573,18 @@ Package babel Info: Redefining dutch shorthand "~
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 94.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.56 \inserttitlepage
+l.94 \inserttitlepage
                       [1
 
 
@@ -1585,24 +1640,24 @@ Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 5.
 [4])
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 65.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 65.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 65.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 65.
+(babel)             in language  on input line 103.
 [5
 
 ]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 65.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 65.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 65.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 65.
+(babel)             in language  on input line 103.
 [6
 
 ] (bachproef-tin.toc
@@ -1618,76 +1673,65 @@ LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <12> not available
 (Font)              Font shape `T1/pag/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 4.
-)
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 32.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 32.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 32.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 32.
+[7])
 \tf@toc=\write7
 \openout7 = `bachproef-tin.toc'.
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 104.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 104.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 104.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 66.
-[7]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 66.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 66.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 66.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 66.
-[8
-
-] (inleiding.tex
+(babel)             in language  on input line 104.
+[8] (inleiding.tex
 Hoofdstuk 1.
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 6.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 6.
-
-LaTeX Warning: Citation 'keynote2007' on page 9 undefined on input line 9.
-
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 9.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 15.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 17.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
-
-LaTeX Warning: Citation 'apk' on page 9 undefined on input line 20.
-
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 25.
 [9
+
 
 ]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 42.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 42.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 50.
 
-LaTeX Warning: Citation 'mobileWat' on page 10 undefined on input line 41.
-
-
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 47--65
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 49--67
 [][] [] 
  []
 
@@ -1695,61 +1739,52 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 47--65
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 69.
 [10]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 69.
 
-LaTeX Warning: Citation 'traffic' on page 11 undefined on input line 68.
-
-
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 72--88
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 74--90
 [][] [] 
  []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 92.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 90.
-
-LaTeX Warning: Citation 'comScore' on page 11 undefined on input line 91.
-
-
-LaTeX Warning: Citation 'comScore' on page 11 undefined on input line 94.
-
+(babel)             in language  on input line 92.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 95.
+(babel)             in language  on input line 97.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 95.
+(babel)             in language  on input line 97.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 95.
+(babel)             in language  on input line 97.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 95.
+(babel)             in language  on input line 97.
 [11]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 103.
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--113
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--116
+Underfull \hbox (badness 10000) in paragraph at lines 112--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
 
  []
 
@@ -1757,84 +1792,91 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--116
 Underfull \vbox (badness 8056) has occurred while \output is active []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 118.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 118.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 118.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 118.
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 116--119
+Underfull \hbox (badness 10000) in paragraph at lines 118--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
+Underfull \hbox (badness 10000) in paragraph at lines 121--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--125
+Underfull \hbox (badness 10000) in paragraph at lines 124--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--128
+Underfull \hbox (badness 10000) in paragraph at lines 127--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--131
+Underfull \hbox (badness 10000) in paragraph at lines 130--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--134
+Underfull \hbox (badness 10000) in paragraph at lines 133--136
 
  []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 136.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 136.
-LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 144.
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 144.
-<img/appShell.png, id=122, 561.59813pt x 400.49625pt>
-File: img/appShell.png Graphic file (type png)
-<use img/appShell.png>
-Package pdftex.def Info: img/appShell.png  used on input line 152.
-(pdftex.def)             Requested size: 421.19756pt x 300.37144pt.
+(babel)             in language  on input line 142.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 162.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 162.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 159.
+(babel)             in language  on input line 171.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 159.
+(babel)             in language  on input line 171.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 159.
+(babel)             in language  on input line 171.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 159.
-[13]
+(babel)             in language  on input line 171.
+[13]) (methodologie.tex
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 161.
-[14 <./img/appShell.png>] (C:\Users\Yannick\AppData\Roaming\MiKTeX\2.9\tex\late
-x\listings\lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-) (C:\Users\Yannick\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-)
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 231.
+(babel)             in language  on input line 5.
+[14]
+Hoofdstuk 2.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 5.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 14.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 14.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 22.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 22.
 
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 32.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -1842,1374 +1884,65 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 232.
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.235 <meta charset="
-                     utf-8">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.235 <meta charset="utf-8
-                          ">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.235 <meta charset="utf-8"
-                           >
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.235 <meta charset="utf-8"
-                           >
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 <link rel="
-                 manifest" href="/manifest.json">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 <link rel="manifest"
-                           href="/manifest.json">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 <link rel="manifest"
-                           href="/manifest.json">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 <link rel="manifest" href="
-                                 /manifest.json">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 <link rel="manifest" href="/m
-                                   anifest.json">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 <link rel="manifest" href="/manifest.json"
-                                                >
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 <link rel="manifest" href="/manifest.json"
-                                                >
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 <meta http-equiv="
-                        X-UA-Compatible" content="IE=edge">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 <meta http-equiv="X-U
-                           A-Compatible" content="IE=edge">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 <meta http-equiv="X-U
-                           A-Compatible" content="IE=edge">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 <meta http-equiv="X-UA-C
-                              ompatible" content="IE=edge">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 <meta http-equiv="X-UA-C
-                              ompatible" content="IE=edge">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 <meta http-equiv="X-UA-Compatible"
-                                         content="IE=edge">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 <meta http-equiv="X-UA-Compatible"
-                                         content="IE=edge">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 <meta http-equiv="X-UA-Compatible" content="
-                                                  IE=edge">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 ...http-equiv="X-UA-Compatible" content="IE=
-                                                  edge">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 ...ttp-equiv="X-UA-Compatible" content="IE=e
-                                                  dge">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 ...equiv="X-UA-Compatible" content="IE=edge"
-                                                  >
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 ...equiv="X-UA-Compatible" content="IE=edge"
-                                                  >
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.239 <meta name="
-                  viewport" content="width=device-width, initial-scale=1.0">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.239 <meta name="viewport"
-                            content="width=device-width, initial-scale=1.0">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.239 <meta name="viewport"
-                            content="width=device-width, initial-scale=1.0">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.239 <meta name="viewport" content="
-                                     width=device-width, initial-scale=1.0">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.239 <meta name="viewport" content="width=
-                                           device-width, initial-scale=1.0">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.239 <meta name="viewport" content="width=d
-                                            evice-width, initial-scale=1.0">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.239 ...a name="viewport" content="width=device-w
-                                                  idth, initial-scale=1.0">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.239 ...a name="viewport" content="width=device-w
-                                                  idth, initial-scale=1.0">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.239 ...e="viewport" content="width=device-width,
-                                                   initial-scale=1.0">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.239 ...="viewport" content="width=device-width, 
-                                                  initial-scale=1.0">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.239 ...="viewport" content="width=device-width, 
-                                                  initial-scale=1.0">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.239 ...t" content="width=device-width, initial-s
-                                                  cale=1.0">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.239 ...t" content="width=device-width, initial-s
-                                                  cale=1.0">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.239 ...ntent="width=device-width, initial-scale=
-                                                  1.0">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.239 ...t="width=device-width, initial-scale=1.0"
-                                                  >
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.239 ...t="width=device-width, initial-scale=1.0"
-                                                  >
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 <link rel="
-                 stylesheet" type="text/css" href="styles/inline.css">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 <link rel="stylesheet"
-                             type="text/css" href="styles/inline.css">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 <link rel="stylesheet"
-                             type="text/css" href="styles/inline.css">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 <link rel="stylesheet" type="
-                                   text/css" href="styles/inline.css">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 <link rel="stylesheet" type="text/c
-                                         ss" href="styles/inline.css">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 <link rel="stylesheet" type="text/c
-                                         ss" href="styles/inline.css">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 <link rel="stylesheet" type="text/css"
-                                             href="styles/inline.css">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 <link rel="stylesheet" type="text/css"
-                                             href="styles/inline.css">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 ...k rel="stylesheet" type="text/css" href="
-                                                  styles/inline.css">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 ...tylesheet" type="text/css" href="styles/i
-                                                  nline.css">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 ...tylesheet" type="text/css" href="styles/i
-                                                  nline.css">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 ... type="text/css" href="styles/inline.css"
-                                                  >
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 ... type="text/css" href="styles/inline.css"
-                                                  >
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.244 <header class="
-                     header">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.244 <header class="header"
-                            >
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.244 <header class="header"
-                            >
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.245 <h1 class="
-                 header__title">App Shell</h1>
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.245 <h1 class="header__title"
-                               >App Shell</h1>
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.245 <h1 class="header__title"
-                               >App Shell</h1>
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.248 <nav class="
-                  nav"></nav>
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.248 <nav class="nav"
-                      ></nav>
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.248 <nav class="nav"
-                      ></nav>
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.250 <main class="
-                   main"></main>
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.250 <main class="main"
-                        ></main>
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.250 <main class="main"
-                        ></main>
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.252 <div class="
-                  dialog-container"></div>
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.252 <div class="dialog-c
-                          ontainer"></div>
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.252 <div class="dialog-c
-                          ontainer"></div>
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.252 <div class="dialog-container"
-                                   ></div>
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.252 <div class="dialog-container"
-                                   ></div>
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.254 <div class="
-                  loader">
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.254 <div class="loader"
-                         >
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.254 <div class="loader"
-                         >
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.258 <script src="
-                   app.js" async></script>
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.258 <script src="app.js"
-                           async></script>
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.258 <script src="app.js"
-                           async></script>
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.260 if ('
-           serviceWorker' in navigator) {
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.260 if ('serviceWorker'
-                          in navigator) {
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.260 if ('serviceWorker'
-                          in navigator) {
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.261 navigator.serviceWorker.register('
-                                        /sw.js').then(function(registration) {
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.261 navigator.serviceWorker.register('/s
-                                          w.js').then(function(registration) {
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.261 navigator.serviceWorker.register('/sw.js'
-                                               ).then(function(registration) {
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.261 navigator.serviceWorker.register('/sw.js'
-                                               ).then(function(registration) {
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263 console.log('
-                   ServiceWorker registration successful with scope: ', regi...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263 console.log('ServiceWorker 
-                                 registration successful with scope: ', regi...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263 console.log('ServiceWorker 
-                                 registration successful with scope: ', regi...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263 console.log('ServiceWorker registration 
-                                              successful with scope: ', regi...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263 console.log('ServiceWorker registration 
-                                              successful with scope: ', regi...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263 ...g('ServiceWorker registration successful 
-                                                  with scope: ', registratio...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263 ...g('ServiceWorker registration successful 
-                                                  with scope: ', registratio...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263 ...rviceWorker registration successful with 
-                                                  scope: ', registration.sco...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263 ...rviceWorker registration successful with 
-                                                  scope: ', registration.sco...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263 ...rker registration successful with scope: 
-                                                  ', registration.scope);
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263 ...rker registration successful with scope: 
-                                                  ', registration.scope);
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263 ...ker registration successful with scope: '
-                                                  , registration.scope);
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.266 console.log('
-                   ServiceWorker registration failed: ', err);
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.266 console.log('ServiceWorker 
-                                 registration failed: ', err);
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.266 console.log('ServiceWorker 
-                                 registration failed: ', err);
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.266 console.log('ServiceWorker registration 
-                                              failed: ', err);
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.266 console.log('ServiceWorker registration 
-                                              failed: ', err);
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.266 ....log('ServiceWorker registration failed: 
-                                                  ', err);
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.266 ....log('ServiceWorker registration failed: 
-                                                  ', err);
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `editorOcher'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.266 ...log('ServiceWorker registration failed: '
-                                                  , err);
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 275.
+(babel)             in language  on input line 40.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 275.
+(babel)             in language  on input line 40.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 275.
+(babel)             in language  on input line 40.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 275.
-[15]
-<img/audit.png, id=182, 490.08093pt x 82.05656pt>
-File: img/audit.png Graphic file (type png)
-<use img/audit.png>
-Package pdftex.def Info: img/audit.png  used on input line 277.
-(pdftex.def)             Requested size: 490.07974pt x 82.05635pt.
-
-Overfull \hbox (63.28839pt too wide) in paragraph at lines 277--278
-[][] 
- []
-
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 292.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 292.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 312.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 312.
-) (methodologie.tex
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 5.
-[16 <./img/audit.png>]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 5.
-[17]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 5.
-[18
-
-]
-Hoofdstuk 2.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 5.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 14.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 14.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 14.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 14.
-[19]) (conclusie.tex
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 5.
-[20]
-Hoofdstuk 3.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 5.
-)
-
-LaTeX Warning: Empty bibliography on input line 90.
-
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 91.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 91.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 94.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 94.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 94.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 94.
-[21
+(babel)             in language  on input line 40.
+[15
 
 ]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 86.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 86.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 86.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 94.
-[22
+(babel)             in language  on input line 86.
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
 
-] (bachproef-tin.lof)
-\tf@lof=\write8
-\openout8 = `bachproef-tin.lof'.
-
-<img/usage.png, id=230, 911.65594pt x 423.83344pt>
-File: img/usage.png Graphic file (type png)
-<use img/usage.png>
-Package pdftex.def Info: img/usage.png  used on input line 97.
-(pdftex.def)             Requested size: 683.74028pt x 317.87428pt.
-
-Overfull \hbox (9.40996pt too wide) in paragraph at lines 97--98
-[][] 
  []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+
+ []
+
+
+! LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 	\begin{longtable}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 10
-0.
+5.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -3218,17 +1951,17 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 10
-0.
+5.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd"
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 10
-0.
+5.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 10
-0.
+5.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
@@ -3236,117 +1969,21 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 100.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 105.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
-<img/downloads.png, id=231, 914.66719pt x 427.5975pt>
-File: img/downloads.png Graphic file (type png)
-<use img/downloads.png>
-Package pdftex.def Info: img/downloads.png  used on input line 103.
-(pdftex.def)             Requested size: 685.99872pt x 320.69733pt.
-
-Overfull \hbox (11.6684pt too wide) in paragraph at lines 103--104
-[][] 
- []
-
-<img/visitsWeb.png, id=232, 663.22781pt x 573.64313pt>
-File: img/visitsWeb.png Graphic file (type png)
-<use img/visitsWeb.png>
-Package pdftex.def Info: img/visitsWeb.png  used on input line 109.
-(pdftex.def)             Requested size: 331.6131pt x 286.82086pt.
-<img/visitors.png, id=233, 909.3975pt x 419.31656pt>
-File: img/visitors.png Graphic file (type png)
-<use img/visitors.png>
-Package pdftex.def Info: img/visitors.png  used on input line 115.
-(pdftex.def)             Requested size: 682.04646pt x 314.48663pt.
-
-Overfull \hbox (7.71614pt too wide) in paragraph at lines 115--116
-[][] 
- []
-
-<img/timeSpent.png, id=234, 913.91437pt x 421.575pt>
-File: img/timeSpent.png Graphic file (type png)
-<use img/timeSpent.png>
-Package pdftex.def Info: img/timeSpent.png  used on input line 120.
-(pdftex.def)             Requested size: 685.43408pt x 316.18047pt.
-
-Overfull \hbox (11.10376pt too wide) in paragraph at lines 120--121
-[][] 
- []
-
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 125.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 125.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 125.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 125.
-[23]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 125.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 125.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 125.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 125.
-[24 <./img/usage.png>]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 125.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 125.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 125.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 125.
-[25 <./img/downloads.png>]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 125.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 125.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 125.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 125.
-[26 <./img/visitsWeb.png>]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 125.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 125.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 125.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 125.
-[27 <./img/visitors.png>]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 125.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 125.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 125.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 125.
-[28 <./img/timeSpent.png>] (bachproef-tin.lot)
-\tf@lot=\write9
-\openout9 = `bachproef-tin.lot'.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 127.
-
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.130 ...& \textbf{Native app} & \textbf{Webapp} &
+l.107 ...textbf{Waardes} & \textbf{Beschrijving} &
                                                    & \\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -3355,7 +1992,446 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.132 ...latform}  & Afhankelijk & Onafhankelijk &
+l.110 ... scherm en toont geen andere elementen. &
+                                                    &  \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.112 ...rd browser elementen zoals de zoekbalk. &
+                                                    &  \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.114 ...en die je kan zien zoals een back-knop. &
+                                                    &  \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.116 ...kt alsof je gewoon in de browser kijkt. &
+                                                    & \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+! LaTeX Error: \begin{itemize} on input line 87 ended by \end{longtable}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 	\end{longtable}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (53.37468pt too wide) in paragraph at lines 105--120
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--120
+
+ []
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.122 ...or gebruik je een hexadecimale code bv: #
+                                                  fff
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--129
+
+ []
+
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 129.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 129.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 129.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 129.
+[17
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 129--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--141
+
+ []
+
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 147.
+<img/manifestDev.png, id=220, 488.57532pt x 575.90157pt>
+File: img/manifestDev.png Graphic file (type png)
+<use img/manifestDev.png>
+Package pdftex.def Info: img/manifestDev.png  used on input line 153.
+(pdftex.def)             Requested size: 244.28706pt x 287.95007pt.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 157.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 157.
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 159.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 159.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 159.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 159.
+[18 <./img/manifestDev.png>]
+<img/noInternet.png, id=228, 887.56593pt x 518.6878pt>
+File: img/noInternet.png Graphic file (type png)
+<use img/noInternet.png>
+Package pdftex.def Info: img/noInternet.png  used on input line 160.
+(pdftex.def)             Requested size: 443.78188pt x 259.34326pt.
+
+Overfull \hbox (16.99052pt too wide) in paragraph at lines 160--161
+[][] 
+ []
+
+<img/lifeCycle.png, id=229, 351.714pt x 539.616pt>
+File: img/lifeCycle.png Graphic file (type png)
+<use img/lifeCycle.png>
+Package pdftex.def Info: img/lifeCycle.png  used on input line 172.
+(pdftex.def)             Requested size: 175.85657pt x 269.80734pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 174.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 174.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 174.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 174.
+[19 <./img/noInternet.png>]
+
+LaTeX Warning: Reference `fig:swDev' on page 20 undefined on input line 190.
+
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 197.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 197.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 197.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 197.
+[20 <./img/lifeCycle.png>]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 216.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 216.
+<img/appShell.png, id=255, 561.59813pt x 400.49625pt>
+File: img/appShell.png Graphic file (type png)
+<use img/appShell.png>
+Package pdftex.def Info: img/appShell.png  used on input line 220.
+(pdftex.def)             Requested size: 280.79837pt x 200.24763pt.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 227.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 227.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 227.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 227.
+[21 <./img/appShell.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 296.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 296.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 296.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 296.
+[22]
+<img/audit.png, id=313, 488.57532pt x 96.36pt>
+File: img/audit.png Graphic file (type png)
+<use img/audit.png>
+Package pdftex.def Info: img/audit.png  used on input line 310.
+(pdftex.def)             Requested size: 488.57413pt x 96.35974pt.
+
+Overfull \hbox (61.78278pt too wide) in paragraph at lines 310--311
+[][] 
+ []
+
+) (conclusie.tex
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 5.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 5.
+[23 <./img/audit.png>]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 5.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 5.
+[24
+
+]
+Hoofdstuk 3.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 5.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 29.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 29.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 29.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 29.
+[25])
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 128.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 128.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 128.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 128.
+[26]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 129.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 129.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 132.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 132.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 132.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 132.
+[27
+
+]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 132.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 132.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 132.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 132.
+[28
+
+] (bachproef-tin.lof)
+\tf@lof=\write8
+\openout8 = `bachproef-tin.lof'.
+
+<img/usage.png, id=384, 911.65594pt x 423.83344pt>
+File: img/usage.png Graphic file (type png)
+<use img/usage.png>
+Package pdftex.def Info: img/usage.png  used on input line 135.
+(pdftex.def)             Requested size: 683.74028pt x 317.87428pt.
+
+Overfull \hbox (9.40996pt too wide) in paragraph at lines 135--136
+[][] 
+ []
+
+<img/downloads.png, id=385, 914.66719pt x 427.5975pt>
+File: img/downloads.png Graphic file (type png)
+<use img/downloads.png>
+Package pdftex.def Info: img/downloads.png  used on input line 141.
+(pdftex.def)             Requested size: 685.99872pt x 320.69733pt.
+
+Overfull \hbox (11.6684pt too wide) in paragraph at lines 141--142
+[][] 
+ []
+
+<img/visitsWeb.png, id=386, 663.22781pt x 573.64313pt>
+File: img/visitsWeb.png Graphic file (type png)
+<use img/visitsWeb.png>
+Package pdftex.def Info: img/visitsWeb.png  used on input line 147.
+(pdftex.def)             Requested size: 331.6131pt x 286.82086pt.
+<img/visitors.png, id=387, 909.3975pt x 419.31656pt>
+File: img/visitors.png Graphic file (type png)
+<use img/visitors.png>
+Package pdftex.def Info: img/visitors.png  used on input line 153.
+(pdftex.def)             Requested size: 682.04646pt x 314.48663pt.
+
+Overfull \hbox (7.71614pt too wide) in paragraph at lines 153--154
+[][] 
+ []
+
+<img/timeSpent.png, id=388, 913.91437pt x 421.575pt>
+File: img/timeSpent.png Graphic file (type png)
+<use img/timeSpent.png>
+Package pdftex.def Info: img/timeSpent.png  used on input line 158.
+(pdftex.def)             Requested size: 685.43408pt x 316.18047pt.
+
+Overfull \hbox (11.10376pt too wide) in paragraph at lines 158--159
+[][] 
+ []
+
+<img/installHome.jpg, id=389, 758.08218pt x 570.63188pt>
+File: img/installHome.jpg Graphic file (type jpg)
+<use img/installHome.jpg>
+Package pdftex.def Info: img/installHome.jpg  used on input line 165.
+(pdftex.def)             Requested size: 454.85281pt x 342.38177pt.
+
+Overfull \hbox (28.06146pt too wide) in paragraph at lines 165--166
+[][] 
+ []
+
+<img/swDev.png, id=390, 373.395pt x 196.48407pt>
+File: img/swDev.png Graphic file (type png)
+<use img/swDev.png>
+Package pdftex.def Info: img/swDev.png  used on input line 171.
+(pdftex.def)             Requested size: 224.03873pt x 117.89134pt.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 176.
+[29]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 176.
+[30 <./img/usage.png>]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 176.
+[31 <./img/downloads.png>]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 176.
+[32 <./img/visitsWeb.png>]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 176.
+[33 <./img/visitors.png>]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 176.
+[34 <./img/timeSpent.png>]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 176.
+[35 <./img/installHome.jpg> <./img/swDev.png>]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 176.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 176.
+[36
+
+] (bachproef-tin.lot)
+\tf@lot=\write9
+\openout9 = `bachproef-tin.lot'.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 178.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.181 ...& \textbf{Native app} & \textbf{Webapp} &
+                                                   & \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.183 ...latform}  & Afhankelijk & Onafhankelijk &
                                                    &  \\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -3364,7 +2440,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.134 ...raat gebruiker & Doorgaans op webserver &
+l.185 ...raat gebruiker & Doorgaans op webserver &
                                                     &  \\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -3373,7 +2449,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.136 ...ruik maken van beperkte functionaliteit &
+l.187 ...ruik maken van beperkte functionaliteit &
                                                     & \\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -3382,7 +2458,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.138 ...aar de website gaan, zonder installatie &
+l.189 ...aar de website gaan, zonder installatie &
                                                     &  \\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -3391,7 +2467,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.140 ...en door alle gebruikers zonder download &
+l.191 ...en door alle gebruikers zonder download &
                                                     &  \\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -3400,64 +2476,57 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.142 ...iet noodzakelijk & Meestal noodzakelijk &
+l.193 ...iet noodzakelijk & Meestal noodzakelijk &
                                                     & \\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (156.77019pt too wide) in paragraph at lines 128--145
+Overfull \hbox (156.77019pt too wide) in paragraph at lines 179--196
 [][] 
  []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 151.
-[29
-
-]
+(babel)             in language  on input line 202.
+[37]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 151.
-[30]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
+(babel)             in language  on input line 202.
+[38]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 202.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 202.
 (bachproef-tin.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 151.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 202.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 202.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                bachproef-tin
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 202.
  ) 
 Here is how much of TeX's memory you used:
- 39788 strings out of 492973
- 727673 string characters out of 3135926
- 1442929 words of memory out of 3000000
- 42815 multiletter control sequences out of 15000+200000
- 586458 words of font info for 170 fonts, out of 3000000 for 9000
+ 39975 strings out of 492973
+ 731458 string characters out of 3135926
+ 1440795 words of memory out of 3000000
+ 42881 multiletter control sequences out of 15000+200000
+ 583752 words of font info for 172 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,12n,65p,966b,3825s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Yannick\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
@@ -3467,9 +2536,9 @@ s/MiKTeX 2.9/fonts/type1/urw/avantgar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/urw/avantgar/uagk8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
 /times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb
 >
-Output written on bachproef-tin.pdf (32 pages, 903818 bytes).
+Output written on bachproef-tin.pdf (40 pages, 1134041 bytes).
 PDF statistics:
- 417 PDF objects out of 1000 (max. 8388607)
- 99 named destinations out of 1000 (max. 500000)
- 31381 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 630 PDF objects out of 1000 (max. 8388607)
+ 201 named destinations out of 1000 (max. 500000)
+ 30918 words of extra memory for PDF output out of 35830 (max. 10000000)
 

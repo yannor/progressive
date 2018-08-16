@@ -1,15 +1,19 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'bachproef-tin.blg'
-[31] biber-MSWIN64:313> INFO - === 
-[61] Biber.pm:371> INFO - Reading 'bachproef-tin.bcf'
-[154] Biber.pm:857> INFO - Found 5 citekeys in bib section 0
-[168] Biber.pm:3976> INFO - Processing section 0
-[185] Biber.pm:4136> INFO - Looking for bibtex format file 'bachproef-tin.bib' for section 0
-[192] bibtex.pm:1500> INFO - LaTeX decoding ...
-[206] bibtex.pm:1316> INFO - Found BibTeX data source 'bachproef-tin.bib'
-[214] Utils.pm:193> WARN - Entry 'apk' (bachproef-tin.bib): Invalid format 'januari 2018' of date field 'date' - ignoring
-[217] Utils.pm:193> WARN - Entry 'mobileWat' (bachproef-tin.bib): Invalid format 'maart 2018' of date field 'date' - ignoring
-[220] Utils.pm:193> WARN - Entry 'traffic' (bachproef-tin.bib): Invalid format 'April 27, 2018' of date field 'date' - ignoring
-[228] Utils.pm:209> ERROR - BibTeX subsystem: C:\Users\Yannick\AppData\Local\Temp\UMQmGxvphi\bachproef-tin.bib_19640.utf8, line 42, syntax error: found "note", expected end of entry ("}" or ")") (skipping to next "@")
-[228] Biber.pm:110> INFO - WARNINGS: 3
-[228] Biber.pm:114> INFO - ERRORS: 1
+[33] biber-MSWIN64:313> INFO - === 
+[100] Biber.pm:371> INFO - Reading 'bachproef-tin.bcf'
+[200] Biber.pm:854> INFO - Using all citekeys in bib section 0
+[213] Biber.pm:3976> INFO - Processing section 0
+[234] Biber.pm:4136> INFO - Looking for bibtex format file 'bachproef-tin.bib' for section 0
+[241] bibtex.pm:1500> INFO - LaTeX decoding ...
+[251] bibtex.pm:1316> INFO - Found BibTeX data source 'bachproef-tin.bib'
+[255] Utils.pm:193> WARN - Entry 'apk' (bachproef-tin.bib): Invalid format 'januari 2018' of date field 'date' - ignoring
+[266] Utils.pm:193> WARN - Entry 'mobileWat' (bachproef-tin.bib): Invalid format 'maart 2018' of date field 'date' - ignoring
+[272] Utils.pm:193> WARN - Entry 'traffic' (bachproef-tin.bib): Invalid format 'April 27, 2018' of date field 'date' - ignoring
+[301] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[301] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[301] Biber.pm:3804> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[301] Biber.pm:3810> INFO - No sort tailoring available for locale 'nl-NL'
+[328] bbl.pm:617> INFO - Writing 'bachproef-tin.bbl' with encoding 'UTF-8'
+[333] bbl.pm:720> INFO - Output to bachproef-tin.bbl
+[339] Biber.pm:110> INFO - WARNINGS: 3

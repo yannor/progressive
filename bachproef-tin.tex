@@ -44,6 +44,44 @@
 %% Inhoud document
 %%=============================================================================
 
+
+\lstset{
+	% Basic design
+	basicstyle={\small\ttfamily},   
+	frame=l,
+	% Line numbers
+	xleftmargin={0.0cm},
+	xrightmargin={0.0cm},
+	numbers=left,
+	stepnumber=1,
+	firstnumber=1,
+	numberfirstline=true,
+	% Code design   
+	keywordstyle=\color{blue}\bfseries,
+	commentstyle=\color{gray}\ttfamily,
+	ndkeywordstyle=\color{editorGreen}\bfseries,
+	stringstyle=\color{editorOcher},
+	% Code
+	language=HTML,
+	alsolanguage=JavaScript,
+	alsodigit={.:;},
+	tabsize=1,
+	showtabs=false,
+	showspaces=false,
+	showstringspaces=false,
+	extendedchars=true,
+	breaklines=true,        
+	% Support for German umlauts
+	literate=%
+	{Ö}{{\"O}}1
+	{Ä}{{\"A}}1
+	{Ü}{{\"U}}1
+	{ß}{{\ss}}1
+	{ü}{{\"u}}1
+	{ä}{{\"a}}1
+	{ö}{{\"o}}1
+}
+
 \begin{document}
 
 %---------- Taalselectie ------------------------------------------------------
@@ -121,6 +159,19 @@
 	\caption{Tijd gespendeerd door gebruikers per app}
 	\label{fig:timeSpent}
 \end{sidewaysfigure}
+
+
+\begin{figure}
+	\includegraphics[scale=0.6]{img/installHome.jpg}
+	\caption{Installeren app op homescherm}
+	\label{fig:promptHome}
+\end{figure}
+
+\begin{figure}
+	\includegraphics[scale=0.6]{img/swDev.png}
+	\caption{De service worker in developer tools in chrome}
+	\label{fig:swDev}
+\end{figure}
 
 \listoftables
 

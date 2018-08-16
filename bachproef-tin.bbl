@@ -1,0 +1,292 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{comScore}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a4507edb80bc497066ab897272b571aa}{%
+           family={comScore},
+           familyi={c\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4507edb80bc497066ab897272b571aa}
+      \strng{fullhash}{a4507edb80bc497066ab897272b571aa}
+      \strng{bibnamehash}{a4507edb80bc497066ab897272b571aa}
+      \strng{authorbibnamehash}{a4507edb80bc497066ab897272b571aa}
+      \strng{authornamehash}{a4507edb80bc497066ab897272b571aa}
+      \strng{authorfullhash}{a4507edb80bc497066ab897272b571aa}
+      \field{sortinit}{c}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{The 2016 U.S. Mobile App Report}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.comscore.com/Insights/Presentations-and-Whitepapers/2016/The-2016-US-Mobile-App-Report
+      \endverb
+      \verb{url}
+      \verb https://www.comscore.com/Insights/Presentations-and-Whitepapers/2016/The-2016-US-Mobile-App-Report
+      \endverb
+    \endentry
+    \entry{traffic}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=799b5da6697e8e7e5403f1a9c9a88ae3}{%
+           family={Enge},
+           familyi={E\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{799b5da6697e8e7e5403f1a9c9a88ae3}
+      \strng{fullhash}{799b5da6697e8e7e5403f1a9c9a88ae3}
+      \strng{bibnamehash}{799b5da6697e8e7e5403f1a9c9a88ae3}
+      \strng{authorbibnamehash}{799b5da6697e8e7e5403f1a9c9a88ae3}
+      \strng{authornamehash}{799b5da6697e8e7e5403f1a9c9a88ae3}
+      \strng{authorfullhash}{799b5da6697e8e7e5403f1a9c9a88ae3}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mobile vs Desktop Usage in 2018: Mobile takes the lead}
+      \verb{urlraw}
+      \verb https://www.stonetemple.com/mobile-vs-desktop-usage-study/
+      \endverb
+      \verb{url}
+      \verb https://www.stonetemple.com/mobile-vs-desktop-usage-study/
+      \endverb
+      \warn{\item Entry 'traffic' (bachproef-tin.bib): Invalid format 'April 27, 2018' of date field 'date' - ignoring}
+    \endentry
+    \entry{serviceWorker}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=76a3590dd04dae71a9be2c3d1c84b29f}{%
+           family={Gaunt},
+           familyi={G\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{fullhash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{bibnamehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{authorbibnamehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{authornamehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{authorfullhash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Service Workers: an introduction}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/fundamentals/primers/service-workers/
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/fundamentals/primers/service-workers/
+      \endverb
+    \endentry
+    \entry{manifest}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=76a3590dd04dae71a9be2c3d1c84b29f}{%
+           family={Gaunt},
+           familyi={G\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{fullhash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{bibnamehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{authorbibnamehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{authornamehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{authorfullhash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Web App Manifest}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/fundamentals/web-app-manifest/
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/fundamentals/web-app-manifest/
+      \endverb
+    \endentry
+    \entry{keynote2007}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=801e93fe2a0575dec9c6a2ed38eb6a9e}{%
+           family={Jobs},
+           familyi={J\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{801e93fe2a0575dec9c6a2ed38eb6a9e}
+      \strng{fullhash}{801e93fe2a0575dec9c6a2ed38eb6a9e}
+      \strng{bibnamehash}{801e93fe2a0575dec9c6a2ed38eb6a9e}
+      \strng{authorbibnamehash}{801e93fe2a0575dec9c6a2ed38eb6a9e}
+      \strng{authornamehash}{801e93fe2a0575dec9c6a2ed38eb6a9e}
+      \strng{authorfullhash}{801e93fe2a0575dec9c6a2ed38eb6a9e}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Keynote van Apple waar Steve Jobs voor het eerst de voorloper van PWA voorstelt}
+      \field{title}{Steve Jobs keynote Macworld}
+      \field{year}{2007}
+      \verb{urlraw}
+      \verb https://9to5mac.com/2011/10/21/jobs-original-vision-for-the-iphone-no-third-party-native-apps/
+      \endverb
+      \verb{url}
+      \verb https://9to5mac.com/2011/10/21/jobs-original-vision-for-the-iphone-no-third-party-native-apps/
+      \endverb
+    \endentry
+    \entry{pwa}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=496bca72317153bb4dd6936afe2c40cb}{%
+           family={LePage},
+           familyi={L\bibinitperiod},
+           given={Pete},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{496bca72317153bb4dd6936afe2c40cb}
+      \strng{fullhash}{496bca72317153bb4dd6936afe2c40cb}
+      \strng{bibnamehash}{496bca72317153bb4dd6936afe2c40cb}
+      \strng{authorbibnamehash}{496bca72317153bb4dd6936afe2c40cb}
+      \strng{authornamehash}{496bca72317153bb4dd6936afe2c40cb}
+      \strng{authorfullhash}{496bca72317153bb4dd6936afe2c40cb}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Your first progressive webapp}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/
+      \endverb
+    \endentry
+    \entry{apk}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d5aff1301f0ea4aa07c99e1a8afbb3d5}{%
+           family={Montegriffo},
+           familyi={M\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d5aff1301f0ea4aa07c99e1a8afbb3d5}
+      \strng{fullhash}{d5aff1301f0ea4aa07c99e1a8afbb3d5}
+      \strng{bibnamehash}{d5aff1301f0ea4aa07c99e1a8afbb3d5}
+      \strng{authorbibnamehash}{d5aff1301f0ea4aa07c99e1a8afbb3d5}
+      \strng{authornamehash}{d5aff1301f0ea4aa07c99e1a8afbb3d5}
+      \strng{authorfullhash}{d5aff1301f0ea4aa07c99e1a8afbb3d5}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is an APK file and how do you install one}
+      \verb{urlraw}
+      \verb https://www.androidpit.com/android-for-beginners-what-is-an-apk-file
+      \endverb
+      \verb{url}
+      \verb https://www.androidpit.com/android-for-beginners-what-is-an-apk-file
+      \endverb
+      \warn{\item Entry 'apk' (bachproef-tin.bib): Invalid format 'januari 2018' of date field 'date' - ignoring}
+    \endentry
+    \entry{appShell}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d44fced3055604fd09c4e99476a58f00}{%
+           family={Osmani},
+           familyi={O\bibinitperiod},
+           given={Addy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{fullhash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{bibnamehash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{authorbibnamehash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{authornamehash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{authorfullhash}{d44fced3055604fd09c4e99476a58f00}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The App Shell Model}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/fundamentals/architecture/app-shell
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/fundamentals/architecture/app-shell
+      \endverb
+    \endentry
+    \entry{mobileWat}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=cb4c8273417c6d32b8c9e25a61a001d1}{%
+           family={Rousse},
+           familyi={R\bibinitperiod},
+           given={Margaret},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cb4c8273417c6d32b8c9e25a61a001d1}
+      \strng{fullhash}{cb4c8273417c6d32b8c9e25a61a001d1}
+      \strng{bibnamehash}{cb4c8273417c6d32b8c9e25a61a001d1}
+      \strng{authorbibnamehash}{cb4c8273417c6d32b8c9e25a61a001d1}
+      \strng{authornamehash}{cb4c8273417c6d32b8c9e25a61a001d1}
+      \strng{authorfullhash}{cb4c8273417c6d32b8c9e25a61a001d1}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Native App}
+      \verb{urlraw}
+      \verb https://searchsoftwarequality.techtarget.com/definition/native-application-native-app
+      \endverb
+      \verb{url}
+      \verb https://searchsoftwarequality.techtarget.com/definition/native-application-native-app
+      \endverb
+      \warn{\item Entry 'mobileWat' (bachproef-tin.bib): Invalid format 'maart 2018' of date field 'date' - ignoring}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

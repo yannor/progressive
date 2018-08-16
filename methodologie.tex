@@ -11,5 +11,310 @@
 %% mogelijke manier toegepast hebt om een antwoord te vinden op de
 %% onderzoeksvraag.
 
-\lipsum[21-25]
+\section{PWA Componenten}
+Om een progressive web app te maken zijn er enkele belangrijke componenten. Deze gaan er voor zorgen dat je een optimale user experience krijgt net zoals je een native app zou hebben.
+\begin{itemize}  
+	\item Application shell
+	\item Web App Manifest
+	\item Service Worker
+\end{itemize}
+
+\subsection{Web App Manifest}
+\lstset{
+	string=[s]{"}{"},
+	stringstyle=\color{blue},
+	comment=[l]{:},
+	commentstyle=\color{black},
+}
+Je web app manifest is een simpel JSON bestand waarin je aan de browser vertelt over je web app en hoe het zich moet gedragen als het geïnstalleerd wordt op het apparaat van de gebruiker. Zonder dit manifest zal chrome nooit de optie geven aan de gebruiker om de app te installeren op het hoofdscherm (zie figuur \ref{fig:promptHome} ) \\
+
+Een typisch manifest ziet er als volgt uit: 
+	\begin{lstlisting}
+{
+"name": "Instagram als Progressive Web App",
+"short_name": "PWAGram",
+"icons": [
+{
+"src": "/src/images/icons/app-icon-48x48.png",
+"type": "image/png",
+"sizes": "48x48"
+},
+{
+"src": "/src/images/icons/app-icon-96x96.png",
+"type": "image/png",
+"sizes": "96x96"
+},
+{
+"src": "/src/images/icons/app-icon-144x144.png",
+"type": "image/png",
+"sizes": "144x144"
+},
+{
+"src": "/src/images/icons/app-icon-192x192.png",
+"type": "image/png",
+"sizes": "192x192"
+},
+{
+"src": "/src/images/icons/app-icon-256x256.png",
+"type": "image/png",
+"sizes": "256x256"
+},
+{
+"src": "/src/images/icons/app-icon-384x384.png",
+"type": "image/png",
+"sizes": "384x384"
+},
+{
+"src": "/src/images/icons/app-icon-512x512.png",
+"type": "image/png",
+"sizes": "512x512"
+}
+],
+"start_url": "/index.html",
+"scope": ".",
+"display": "standalone",
+"orientation": "portrait-primary",
+"background_color": "#fff",
+"theme_color": "#3f51b5",
+"description": "Een simpele Instagram Clone.",
+"dir": "ltr",
+"lang": "nl-BE"
+}
+\end{lstlisting}
+
+
+\clearpage
+\begin{itemize}  
+	\item name en short\_name: \\
+	Eén van deze twee moet zeker aanwezig zijn. Als beide voorzien zijn zal overal de short\_name gebruikt worden waar de plaats beperkt is zoals op je hoofdscherm onder het icoon.
+	\\
+	\item icons \\
+	Hier kun je je iconen definiëren. Je definiëert een lijst met je iconen. De browser zal dan de beste uitpakken voor hetgeen nodig is. Als de browser het icoon nodig heeft voor te tonen op je hoofdscherm zal hij hier hetgeen met de juiste afmetingen bepalen.
+	\\
+	\item start\_url: \\
+	Dit vertelt aan de browser welke startpagina getoond moet worden aan de gebruiker. 
+	\\
+	\item scope: \\
+	Welke pagina's zijn deel van de progressive web app en kunnen dus gebruik maken van de iconen en kleuren die zijn gedefiniëerd. Het is gebruikelijk om hier alle pagina's te kiezen. Dit kan door gewoon "." te zetten. 
+	\\
+
+	\item display: \\
+	Hier kun je specifiëren welk deel van de browser getoond moet worden. Je kan aan de gebruiker nog steeds de adresbar tonen of je kan ervoor kiezen om alles te verbergen zodat het meer als een native app aanvoelt. \\
+	\bigbreak
+	\begin{longtable}
+		\begin{tabular}{| p{.20\textwidth} | p{.80\textwidth} |}
+			\hline
+			\textbf{Waardes} & \textbf{Beschrijving} & & \\
+			\hline
+		
+			 \textbf{fullscreen} & Neemt het geheel van plaats in beslag op het scherm en toont geen andere elementen. &  &  \\ 
+			\hline
+			\textbf{standalone} & De webapp zal eruit zien als een echte native app. Het opent op een apart venster, apart van de browser en toont geen standaard browser elementen zoals de zoekbalk. &  &  \\
+			\hline
+			\textbf{minimal-ui} & Dit wordt niet ondersteund in chrome. Hierbij heb je net hetzelfde als bij fullscreen maar je hebt een minimaal aantal aan elementen die je kan zien zoals een back-knop. &  &  \\
+			\hline
+			 \textbf{browser} & Het lijkt alsof je gewoon in de browser kijkt. &  & \\
+			\hline
+		\end{tabular}
+	\end{longtable}
+
+	\item background\_color: \\
+De achtergrondkleur van de app. Dit wordt vooral getoond in laadschermen. Hiervoor gebruik je een hexadecimale code bv: #fff
+\\
+
+
+	\item theme\_color: \\
+	Je thema kleur. Net zoals native apps een thema kleur hebben die gaat bepalen welke kleur je balk aan de top van je scherm heeft. Ook hier wordt gebruik gemaakt van een hexadecimale code
+	\\
+	\item description: \\
+	Hier kan je een kleine samenvatting geven. Als een internetbrowser dit nodig heeft zal hij dit hier vandaan halen. De gebruiker zal dit dus te zien krijgen	
+	\\
+	\item dir \\
+	Dit is de richting van je tekst. Gebruikelijk wordt hier ltr gebruikt, left to right. Als je wil kan je hier ook rtl kiezen.
+	\\
+	\item lang \\
+	De taal van je app. je gebruikt hier de 4 letter code van je taal die je wil.
+	\\
+	\item orientation \\
+	Hier kan je bepalen hoe je wil dat je app getoond wordt. Wil je dit rechtop of liever gedraaid. Je kan hier aan de gebruiker opleggen dat je het scherm niet kunt draaien. vb: portrait-primary
+	\\
+	
+\end{itemize}
+
+
+Na het toevoegen van je manifest moet je aan al je pagina's de link naar je manifest toevoegen.
+\begin{lstlisting}
+<link rel="manifest" href="/manifest.json">
+\end{lstlisting}
+
+Nadien kan je je manifest controleren in de developer tools van Google Chrome
+
+
+	\includegraphics[scale=0.5]{img/manifestDev.png}
+
+
+
+\subsection{Service Worker}
+Het web is handig. Wil je de openingsuren van een winkel weten of wil je opzoeken wat ze allemaal verkopen? Ga naar hun website en je vindt het meteen. Het is zo makkelijk. En toch heeft iedereen al eens hetzelfde meegemaakt als ze dit willen doen: \\
+
+\includegraphics[scale=0.5]{img/noInternet.png}
+
+
+Zoals je ziet kun je niet veel zien als je geen internet hebt. Zonder internet kan je niet de informatie gaan opzoeken die je nodig hebt.
+
+Door de introductie van de service worker is dit voor ontwikkelaars niet langer een probleem en kunnen ze dit op een juiste manier verwerken zodat de gebruikers niet merken dat ze geen internet hebben. Maar dit is niet het enige dat de service worker gaat doen.
+
+Een service worker is een script dat, apart van de webpagina, op de browser draait. Hierdoor zijn er verschillende functionaliteiten die gebruikt kunnen worden waarbij geen interactie van de gebruiker nodig is. Momenteel zijn dit functionaliteiten zoals push notificaties of offline gebruik van de site maar wie weet welke functionaliteiten in de toekomst nog mogelijk zullen worden gemaakt. 
+
+
+Aangezien een service worker apart loopt van de webpagina heeft het ook een andere levenscyclus. 
+
+	\includegraphics[scale=0.5]{img/lifeCycle.png}
+	
+	Voordat de service worker kan geïnstalleerd worden moeten we deze eerst registreren.
+	
+\begin{lstlisting}
+if ('serviceWorker' in navigator) {
+window.addEventListener('load', function() {
+navigator.serviceWorker.register('/sw.js').then(function(registration) {
+// Registration was successful
+console.log('ServiceWorker registration successful with scope: ', registration.scope);
+}, function(err) {
+// registration failed :(
+console.log('ServiceWorker registration failed: ', err);
+});
+});
+}
+\end{lstlisting}
+
+Als je je service worker geregistreerd hebt zal de browser deze direct installeren op de achtergrond. Je kan vanaf nu ook je service worker bekijken in de developer tools van chrome (zie figuur \ref{fig:swDev}).
+
+Tijdens het installeren kan je in het script meegeven wat het moet doen. In de meeste gevallen zal hier ook het cachen van statiche bestanden gebeuren. Aangezien deze statisch zijn en weinig veranderingen nodig hebben hoeft dit eenmalig te gebeuren, tijdens de installatie. Als bestanden niet kunnen gecached worden dan zal de installatiestap falen en zal deze nooit geactiveerd worden. De volgende keer zal de browser opnieuw proberen de service worker te installeren.
+\begin{lstlisting}
+var CACHE_NAME = 'my-site-cache-v1';
+var urlsToCache = [
+'/',
+'/styles/main.css',
+'/script/main.js'
+];
+
+self.addEventListener('install', function(event) {
+// Perform install steps
+event.waitUntil(
+caches.open(CACHE_NAME)
+.then(function(cache) {
+console.log('Opened cache');
+return cache.addAll(urlsToCache);
+})
+);
+});
+\end{lstlisting}
+
+
+Nadat de service worker geïnstalleerd is wordt deze geactiveerd. Dit is de ideale plaats om oude caches te verwijderen en te zorgen dat de data die wel bewaard wordt up to date is.
+
+\subsection{Application shell}
+De application of app shell is het minimum aan HTML, CSS en Javascript dat je nodig hebt voor je applicatie te kunnen tonen. Dit minimum wordt gecached zodat dit zelfs zonder internetverbinding altijd snel getoond kan worden aan de gebruiker. Hierdoor hoeft enkel de dynamische inhoud zoals een artikel geladen te worden via het netwerk.
+De app shell is heel handig om al iets te kunnen tonen aan de gebruiker terwijl andere delen nog tijd nodig hebben om te laden.
+\begin{figure}[h]
+	\includegraphics[scale=0.5]{img/appShell.png}
+	\caption{Application shell}
+	\label{fig:appShell}
+\end{figure}
+Zoals je ziet op de afbeelding heb je in de application shell het minimum dat je wil tonen aan de gebruiker. Wanneer je de app ook bezoekt, zal dit altijd hetzelfde zijn. Aangezien hier weinig of geen verandering is kan je dit lokaal opslaan (cachen). Het dynamisch gedeelte, het artikel, wordt wel via het netwerk geladen. Dit gedeelte, de inhoud, is niet altijd hetzelfde en zal vaak veranderen. Het is dus niet nodig dit lokaal op te slaan. Als er toch updates gedaan worden aan bestanden van de app shell zal de progressive web app dit zien. De volgende keer dat de gebruiker online is zal de app de oude bestanden vervangen door de nieuwe. Als ontwikkelaar is het belangrijk op voorhand te kijken welke bestanden je gaat cachen en welke niet.
+Belangrijke voorwaarden voor de app shell: 
+\begin{itemize}  
+	\item Snel laden
+	\item Zo weinig mogelijk data gebruiken
+	\item Statische bestanden gebruiken van de lokale cache
+	\item Inhoud en navigatie scheiden
+\end{itemize}
+
+Dit is een voorbeeld van een app shell waarbij het sw.js bestand wordt gecached. 
+\lstdefinelanguage{JavaScript}{
+	morekeywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+	morecomment=[s]{/*}{*/},
+	morecomment=[l]//,
+	morestring=[b]",
+	morestring=[b]'
+}
+\lstdefinelanguage{HTML5}{
+	language=html,
+	sensitive=true, 
+	alsoletter={<>=-},
+	otherkeywords={
+		% HTML tags
+		<html>, <head>, <title>, </title>, <meta, />, </head>, <body>,
+		<canvas, \/canvas>, <script>, </script>, </body>, </html>, <!, html>, <style>, </style>, ><
+	},  
+	ndkeywords={
+		% General
+		=,
+		% HTML attributes
+		charset=, id=, width=, height=,
+		% CSS properties
+		border:, transform:, -moz-transform:, transition-duration:, transition-property:, transition-timing-function:
+	},  
+	morecomment=[s]{<!--}{-->},
+	tag=[s]
+}
+
+
+\begin{lstlisting}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>App Shell</title>
+<link rel="manifest" href="/manifest.json">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="styles/inline.css">
+</head>
+
+<body>
+<header class="header">
+<h1 class="header__title">App Shell</h1>
+</header>
+
+<nav class="nav"></nav>
+
+<main class="main"></main>
+
+<div class="dialog-container"></div>
+
+<div class="loader">
+<!-- Show a spinner or placeholders for content -->
+</div>
+
+<script src="app.js" async></script>
+<script>
+if ('serviceWorker' in navigator) {
+navigator.serviceWorker.register('/sw.js').then(function(registration) {
+// Registration was successful
+console.log('ServiceWorker registration successful with scope: ', registration.scope);
+}).catch(function(err) {
+// registration failed :(
+console.log('ServiceWorker registration failed: ', err);
+});
+}
+</script>
+</body>
+</html>
+\end{lstlisting}
+
+
+Na het creëren van je progressive web app kan je deze laten auditeren door lighthouse. Je progressive web app krijgt een rapport speciaal voor jou opgemaakt. Je krijgt hier een score (op 100) op verschillende punten). Het rapport toont ook waar je nog dingen kunt verbeteren.
+
+
+	\includegraphics[scale=1]{img/audit.png}
+
+
+\begin{itemize}  
+	\item Performance: Dit toont hoe goed je huidige app presteert. bv: hoe snel laad de pagina
+	\item Progressive web app: In welke mate voldoet de app aan de checklist waaraan een progressive web app moet voldoen. bv: is er een pictogram voor het homescreen
+	\item Accessibility: Hoe toegankelijk is je app. bv: kleurencontrast op pagina
+	\item Best practices: Hou je je aan de best practices omtrent het schrijven van een web app. bv: geen error logs in de console
+	\item SEO: Is je pagina optimaal voor zoekmachines
+\end{itemize}
 
