@@ -27,6 +27,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.3}Application shell}{21}{subsection.2.1.3}
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.4}Lighthouse}{23}{subsection.2.1.4}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Conclusie}{25}{chapter.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\leavevmode {\color {maincolor}Bibliografie}}{27}{chapter*.4}
