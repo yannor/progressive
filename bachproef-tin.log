@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.23)  16 AUG 2018 03:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.23)  19 AUG 2018 03:48
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1590,23 +1590,23 @@ l.94 \inserttitlepage
 
 ] (samenvatting.tex
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 22.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 \chapter
+l.22 \chapter
              *{\IfLanguageName{dutch}{Samenvatting}{Abstract}} [2
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+pag on input line 39.
+LaTeX Font Info:    Try loading font information for T1+pag on input line 22.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pag.fd"
 File: t1pag.fd 2001/06/04 font definitions for T1/pag.
 )
@@ -1615,20 +1615,20 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 39.
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <24.88> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 39.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 22.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 32.
 [3]) (voorwoord.tex
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 5.
@@ -1838,7 +1838,7 @@ Package babel Info: Redefining dutch shorthand "|
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 162.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1496) has occurred while \output is active []
 
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 171.
@@ -2151,9 +2151,6 @@ Package babel Info: Redefining dutch shorthand "|
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 174.
 [19 <./img/noInternet.png>]
-
-LaTeX Warning: Reference `fig:swDev' on page 20 undefined on input line 190.
-
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 197.
 Package babel Info: Redefining dutch shorthand "~
@@ -2167,7 +2164,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 216.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 216.
-<img/appShell.png, id=255, 561.59813pt x 400.49625pt>
+<img/appShell.png, id=257, 561.59813pt x 400.49625pt>
 File: img/appShell.png Graphic file (type png)
 <use img/appShell.png>
 Package pdftex.def Info: img/appShell.png  used on input line 220.
@@ -2192,7 +2189,7 @@ Package babel Info: Redefining dutch shorthand "|
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 296.
 [22]
-<img/audit.png, id=313, 488.57532pt x 96.36pt>
+<img/audit.png, id=316, 488.57532pt x 96.36pt>
 File: img/audit.png Graphic file (type png)
 <use img/audit.png>
 Package pdftex.def Info: img/audit.png  used on input line 310.
@@ -2232,13 +2229,13 @@ Package babel Info: Redefining dutch shorthand "~
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 31.
 [25])
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 128.
@@ -2278,7 +2275,7 @@ Package babel Info: Redefining dutch shorthand "~
 \tf@lof=\write8
 \openout8 = `bachproef-tin.lof'.
 
-<img/usage.png, id=384, 911.65594pt x 423.83344pt>
+<img/usage.png, id=389, 911.65594pt x 423.83344pt>
 File: img/usage.png Graphic file (type png)
 <use img/usage.png>
 Package pdftex.def Info: img/usage.png  used on input line 135.
@@ -2288,7 +2285,7 @@ Overfull \hbox (9.40996pt too wide) in paragraph at lines 135--136
 [][] 
  []
 
-<img/downloads.png, id=385, 914.66719pt x 427.5975pt>
+<img/downloads.png, id=390, 914.66719pt x 427.5975pt>
 File: img/downloads.png Graphic file (type png)
 <use img/downloads.png>
 Package pdftex.def Info: img/downloads.png  used on input line 141.
@@ -2298,12 +2295,12 @@ Overfull \hbox (11.6684pt too wide) in paragraph at lines 141--142
 [][] 
  []
 
-<img/visitsWeb.png, id=386, 663.22781pt x 573.64313pt>
+<img/visitsWeb.png, id=391, 663.22781pt x 573.64313pt>
 File: img/visitsWeb.png Graphic file (type png)
 <use img/visitsWeb.png>
 Package pdftex.def Info: img/visitsWeb.png  used on input line 147.
 (pdftex.def)             Requested size: 331.6131pt x 286.82086pt.
-<img/visitors.png, id=387, 909.3975pt x 419.31656pt>
+<img/visitors.png, id=392, 909.3975pt x 419.31656pt>
 File: img/visitors.png Graphic file (type png)
 <use img/visitors.png>
 Package pdftex.def Info: img/visitors.png  used on input line 153.
@@ -2313,7 +2310,7 @@ Overfull \hbox (7.71614pt too wide) in paragraph at lines 153--154
 [][] 
  []
 
-<img/timeSpent.png, id=388, 913.91437pt x 421.575pt>
+<img/timeSpent.png, id=393, 913.91437pt x 421.575pt>
 File: img/timeSpent.png Graphic file (type png)
 <use img/timeSpent.png>
 Package pdftex.def Info: img/timeSpent.png  used on input line 158.
@@ -2323,7 +2320,7 @@ Overfull \hbox (11.10376pt too wide) in paragraph at lines 158--159
 [][] 
  []
 
-<img/installHome.jpg, id=389, 758.08218pt x 570.63188pt>
+<img/installHome.jpg, id=394, 758.08218pt x 570.63188pt>
 File: img/installHome.jpg Graphic file (type jpg)
 <use img/installHome.jpg>
 Package pdftex.def Info: img/installHome.jpg  used on input line 165.
@@ -2333,11 +2330,11 @@ Overfull \hbox (28.06146pt too wide) in paragraph at lines 165--166
 [][] 
  []
 
-<img/swDev.png, id=390, 373.395pt x 196.48407pt>
+<img/swDev.png, id=395, 373.395pt x 196.48407pt>
 File: img/swDev.png Graphic file (type png)
 <use img/swDev.png>
 Package pdftex.def Info: img/swDev.png  used on input line 171.
-(pdftex.def)             Requested size: 224.03873pt x 117.89134pt.
+(pdftex.def)             Requested size: 280.04556pt x 147.36269pt.
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 176.
 Package babel Info: Redefining dutch shorthand "~
@@ -2510,12 +2507,6 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 202.
 (bachproef-tin.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 202.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 202.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
@@ -2524,7 +2515,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 202.
 Here is how much of TeX's memory you used:
  39975 strings out of 492973
  731458 string characters out of 3135926
- 1440795 words of memory out of 3000000
+ 1440868 words of memory out of 3000000
  42881 multiletter control sequences out of 15000+200000
  583752 words of font info for 172 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2536,9 +2527,9 @@ s/MiKTeX 2.9/fonts/type1/urw/avantgar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/urw/avantgar/uagk8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
 /times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb
 >
-Output written on bachproef-tin.pdf (40 pages, 1134041 bytes).
+Output written on bachproef-tin.pdf (40 pages, 1134455 bytes).
 PDF statistics:
- 630 PDF objects out of 1000 (max. 8388607)
+ 634 PDF objects out of 1000 (max. 8388607)
  201 named destinations out of 1000 (max. 500000)
  30918 words of extra memory for PDF output out of 35830 (max. 10000000)
 
