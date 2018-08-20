@@ -213,6 +213,47 @@ return cache.addAll(urlsToCache);
 
 Nadat de service worker geïnstalleerd is wordt deze geactiveerd. Dit is de ideale plaats om oude caches te verwijderen en te zorgen dat de data die wel bewaard wordt up to date is.
 
+Wanneer een service worker geactiveerd is wacht deze. Dit noemen we idle-state. De service worker wacht tot hij een taak toegewezen krijgt. Dit gebeurt als er een fetch-evenement wordt opgeroepen. In dit geval komt de service worker tot leven en zal hij deze taak uitvoeren waarna hij weer in een idle-state beland. De service worker zal in deze staat blijven tot deze wordt geüpdate. Hierdoor kan deze reageren op events zoals push-notificaties, zelfs als de web app gesloten is.
+
+Je kan als ontwikkelaar zelf events toevoegen waarop de service worker zal reageren zoals het aanklikken van een notificatie
+
+\begin{lstlisting}
+self.addEventListener('notificationclick', function (event) {
+var action = event.action;
+
+console.log(notification);
+
+if (action === 'confirm') {
+console.log('Confirm was chosen');
+} else {
+console.log('Another action was chosen');
+}
+});
+\end{lstlisting}
+
+Maar het belangrijkste event is het fetch event. Deze zal de dynamische inhoud van je webpagina laden. Door het juist implementeren van dit event kan je ervoor zorgen dat de gebruiker het niet merkt als hij geen internetverbinding zou hebben.
+
+
+\clearpage
+\subsubsection{Offline gebruik}
+\begin{lstlisting}
+self.addEventListener('fetch', function (event) {
+console.log('Haal de dynamische data op.');
+});
+\end{lstlisting}
+
+Het offline gebruiken van een progressive web app is één van de belangrijkste eigenschappen. Gebruikers zonder internetverbinding kunnen nog steeds je web app blijven gebruiken. Dit geldt ook voor gebruikers met een slechte verbinding. Ondanks hun verbinding zullen ze geen wachttijden te zien krijgen. Dit is als bedrijf heel goed aangezien gebruikers sneller zullen afhaken als ze moeten wachten tot een pagina geladen is.
+
+Voor het ophalen van data zijn er enkele manieren waarop je te werk kan gaan. Afhankelijk van wat je wil zul je het fetch-event anders implementeren.
+ 
+\begin{itemize}
+	\item Netwerk-only: Bij een fetch event zal de service worker de gegevens enkel ophalen over het netwerk. Hierdoor zal de gebruiker altijd de laatste gegevens hebben. Het offline gebruiken van de app zal niet mogelijk zijn aangezien het gegevens steeds over het internet wil ophalen.
+	\item Cache-only: De gebruiker zal de gegevens altijd van de cache ophalen. Gegevens die op het netwerk worden aangepast zullen hier niet zichtbaar zijn aangezien ze nooit worden opgehaald. Dit is ideaal voor statische gegevens die nooit worden aangepast. Doordat het over de cache gaat en niet over het netwerk gaat dit veel sneller.
+	\item Cache dan netwerk: De data wordt eerst opgehaald uit de cache en nadien via het netwerk. Eenmaal de gegevens van het netwerk zijn opgehaald wordt de pagina aangepast met de nieuwste data. Dit is ideaal waar data altijd up-to-date moet zijn zoals scoreborden en nieuwsartikelen.
+	\item Cache met netwerk alternatief: De service worker zal de gegevens die hij daar terugvind ophalen uit de cache en alles waarvan hij een nieuwere versie vind op het netwerk van daar. Je zal hierdoor altijd de nieuwste versie hebben. Tijdens dit kan je ook je cache updaten waardoor de gebruiker de laatste versie in zijn cache heeft en de volgende keer hij die pagina bezoekt er minder moet worden opgehaald over het netwerk. 
+	\item Netwerk met cache alternatief: De service worker haalt de gegevens op via het netwerk. Hierdoor krijgt de gebruiker altijd de laatste gegevens te zien. Als de service worker hierbij problemen ondervind door een slechte verbinding zal hij de gegevens uit de cache ophalen. Hierdoor kan een gebruiker met een slechte verbinding lang moeten wachten voor hij data ziet.
+\end{itemize}
+
 \subsection{Application shell}
 De application of app shell is het minimum aan HTML, CSS en Javascript dat je nodig hebt om je applicatie te kunnen tonen. Dit minimum wordt gecached zodat dit zelfs zonder internetverbinding altijd snel getoond kan worden aan de gebruiker. Hierdoor hoeft enkel de dynamische inhoud zoals een artikel geladen te worden via het netwerk.
 De app shell is heel handig om al iets te kunnen tonen aan de gebruiker terwijl andere delen nog tijd nodig hebben om te laden.
@@ -316,5 +357,30 @@ Na het creëren van je progressive web app, kan je deze laten auditeren door lig
 	\item Accessibility: Hoe toegankelijk is je app. Hier kan je een goede score krijgen door onder andere een goed kleurencontrast te gebruiken op je webpagina's.
 	\item Best practices: Hou je je aan de best practices omtrent het schrijven van een web app. Hier wordt er onder andere gekeken of je geen error logs in de consoles toont.
 	\item SEO: Is je pagina optimaal voor zoekmachines?
+\end{itemize}
+
+
+\section{PWA vs Native}
+Met de komst van de progressive web app wordt de kloof tussen het web en native gedicht. Functionaliteiten van het apparaat die vroeger enkel door native apps konden gebruikt worden, zijn nu ook beschikbaar voor web apps. 
+
+	\includegraphics[scale=0.6]{img/webToday.png}
+	
+	\clearpage
+	Ondanks dat native en web dichter naar mekaar groeien zijn er nog steeds enkele verschillen tussen beiden. Zo hebben ze elk enkele voordelen tegenover de ander.
+
+\subsection{Voordelen native tegenover web}	
+\begin{itemize}  
+	\item Ondanks de vele functionaliteiten van het apparaat dat het web kan gebruiken zijn er toch nog enkele die enkel voor native voorbestemd zijn. Voor ontwikkelaars dat gebruik willen maken van deze specifieke functionaliteiten zullen voor een native app moeten kiezen
+	\item App stores zijn niet altijd slecht. Gebruikers kunnen makkelijk nieuwe apps ontdekken. Ze kunnen er redelijk zeker van zijn dat de app die ze willen downloaden geen slechte bedoelingen heeft aangezien deze eerst gecontroleerd worden voor ze op de store geplaats kunnen worden. Als bedrijf kun je beoordelingen krijgen die je kan gebruiken om je app te verbeteren.
+	\item Wake lock zorgt ervoor dat je scherm niet uitgaat na een bepaalde tijd van inactiviteit. Als je de Netflix-app gebruikt wil je niet elke vijf minuten je scherm aanraken zodat het niet uitvalt. Web apps kunnen deze wake lock niet gebruiken waardoor het zomaar kan gebeuren dat, in het midden van je artikel dat je aan het lezen bent, je telefoon uitvalt.
+\end{itemize}
+
+\subsection{Voordelen web tegenover native}	
+	
+\begin{itemize}  
+	\item Inhoud in progressive web apps kan makkelijk gevonden worden door zoekmachines. Voor native apps wordt er niet gekeken naar inhoud. Native apps zoals Reddit zul je enkel terugvinden als je zoekt naar Reddit, maar niet als je zoekt naar één van de vele subreddits die Reddit rijk is. 
+	\item Wil je een artikel delen die je hebt gezien in een online winkel? Bij een web app kan je makkelijke elke pagina linken en deze delen met anderen. Gebruikers hebben maar één link nodig om direct op een bepaalde pagina te komen. Bij native app moeten ze eerst via de app store om daar de app te downloaden. Nadien moeten ze nog navigeren naar de juiste pagina. 
+	\item Als ontwikkelaar moet je niet elke update laten goedkeuren door de app store maar kan je je web app updaten wanneer je wil.
+	\item Vanaf dat je web app online is, is het bereikbaar voor iedereen. Voordat je een native app kunt gebruiken moet je enkele stappen doorlopen. Bij elk van deze stappen verlies je ongeveer 20\% gebruikers. Als je bij 1000 mensen interesse hebt opgewekt voor je app, heb na alle stappen te doorlopen nog ongeveer 262 gebruikers over. (zie figuur \ref{fig:appDropOff})
 \end{itemize}
 

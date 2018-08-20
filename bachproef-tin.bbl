@@ -48,6 +48,35 @@
       \verb https://www.comscore.com/Insights/Presentations-and-Whitepapers/2016/The-2016-US-Mobile-App-Report
       \endverb
     \endentry
+    \entry{dropOff}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5049d39e4523766ca9f9dd10e00ab5f9}{%
+           family={Cselle},
+           familyi={C\bibinitperiod},
+           given={Gabor},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5049d39e4523766ca9f9dd10e00ab5f9}
+      \strng{fullhash}{5049d39e4523766ca9f9dd10e00ab5f9}
+      \strng{bibnamehash}{5049d39e4523766ca9f9dd10e00ab5f9}
+      \strng{authorbibnamehash}{5049d39e4523766ca9f9dd10e00ab5f9}
+      \strng{authornamehash}{5049d39e4523766ca9f9dd10e00ab5f9}
+      \strng{authorfullhash}{5049d39e4523766ca9f9dd10e00ab5f9}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Every Step Costs You 20\% of Users}
+      \verb{urlraw}
+      \verb https://medium.com/gabor/every-step-costs-you-20-of-users-b613a804c329
+      \endverb
+      \verb{url}
+      \verb https://medium.com/gabor/every-step-costs-you-20-of-users-b613a804c329
+      \endverb
+    \endentry
     \entry{traffic}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=799b5da6697e8e7e5403f1a9c9a88ae3}{%

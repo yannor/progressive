@@ -462,16 +462,24 @@ INPUT ./img/lifeCycle.png
 INPUT ./img/lifeCycle.png
 INPUT ./img/lifeCycle.png
 INPUT ./img/lifeCycle.png
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8t.tfm
 INPUT img/appShell.png
 INPUT ./img/appShell.png
 INPUT ./img/appShell.png
 INPUT ./img/appShell.png
 INPUT ./img/appShell.png
+INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/avantgar/pagd8t.vf
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8r.tfm
 INPUT img/audit.png
 INPUT ./img/audit.png
 INPUT ./img/audit.png
 INPUT ./img/audit.png
 INPUT ./img/audit.png
+INPUT img/webToday.png
+INPUT ./img/webToday.png
+INPUT ./img/webToday.png
+INPUT ./img/webToday.png
+INPUT ./img/webToday.png
 INPUT conclusie.tex
 INPUT conclusie.tex
 INPUT bachproef-tin.lof
@@ -513,6 +521,11 @@ INPUT ./img/swDev.png
 INPUT ./img/swDev.png
 INPUT ./img/swDev.png
 INPUT ./img/swDev.png
+INPUT img/appDropOff.png
+INPUT ./img/appDropOff.png
+INPUT ./img/appDropOff.png
+INPUT ./img/appDropOff.png
+INPUT ./img/appDropOff.png
 INPUT bachproef-tin.lot
 INPUT bachproef-tin.lot
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/biblatex-apa/dutch-apa.lbx
